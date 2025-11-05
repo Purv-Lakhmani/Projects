@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        img{
+            animation: animate 1s ease-in-out 0.6s 1 forwards;
+        }
+        @keyframes animate {
+            from {
+                opacity: 0;
+                transform: translate(0, 100px);
+                filter: blur(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translate(0);
+                filter: blur(0);
+            }
+        }
+    </style>
+</head>
+<body style="background-color:  rgba(222, 211, 211,0.6)">
+            <div class="row">
+                <div class="col-sm-4" style="margin-top: 250px; padding-left: 60px; text-align: justify;">
+                    <center><h1>About Us</h1></center>
+                    <ul>
+                        <li>
+                            At Birds Info, our mission is to provide comprehensive and accurate information about various bird species. We aim to educate and inspire bird enthusiasts of all ages.
+                        </li>
+                        <li>Our team consists of dedicated bird watchers, researchers, and conservationists who are passionate about sharing their knowledge and love for birds.</li>
+                        <li>Have questions or feedback? Feel free to reach out to us through our contact page. We'd love to hear from you!</li>
+                    </ul>
+                </div>
+                <div class="col-sm-8">
+                    <img src="../image/bird2.png" alt="Bird" class="mx-auto d-block" style="width: 90%; height: 100%; margin-top: 50px;">
+                </div>
+            </div>
+</body>
+</html>
